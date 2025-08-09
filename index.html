@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vièra Parapharmacie - Santé et Beauté en ligne</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Commandez en ligne vos produits de santé et beauté de qualité, au meilleur prix, rapidement et en toute sécurité." />
+    <meta name="keywords" content="parapharmacie, santé, beauté, soins de la peau, compléments alimentaires, Maroc, Larache, Vièra, en ligne, pharmacie" />
+    <meta name="author" content="Vièra Parapharmacie" />
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Vièra Parapharmacie - Santé et Beauté en ligne" />
+    <meta property="og:description" content="Commandez en ligne vos produits de santé et beauté de qualité, au meilleur prix, rapidement et en toute sécurité." />
+    <meta property="og:image" content="https://files.catbox.moe/2u2doa.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Vièra Parapharmacie - Santé et Beauté en ligne" />
+    <meta name="twitter:description" content="Commandez en ligne vos produits de santé et beauté de qualité, au meilleur prix, rapidement et en toute sécurité." />
+    <meta name="twitter:image" content="https://files.catbox.moe/2u2doa.png" />
+    
+    <link rel="icon" type="image/png" href="https://files.catbox.moe/yvhhu8.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+      /* Default styles (will be overridden by ThemeProvider) */
+      :root {
+        --app-bg: #d8d5ee;
+        --app-surface-1: #c5c1e6;
+        --app-surface-2: #c5c1e6;
+        --app-primary: #53b560; /* Green */
+        --app-accent: #9e7dd1;
+        --app-text-primary: #2C2C2C;
+        --app-text-secondary: #514d5f;
+        --app-text-on-primary: #f2f2f2;
+        --app-border: #b2ade0;
+        --app-font-header: 'Inter', sans-serif;
+        --app-font-body: 'Inter', sans-serif;
+      }
+
+      body {
+        font-family: var(--app-font-body);
+        background-color: var(--app-bg);
+        color: var(--app-text-primary);
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+
+      h1, h2, h3, h4, h5, h6 {
+        font-family: var(--app-font-header);
+      }
+      
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+      }
+      
+      .icon-filled {
+        font-variation-settings: 'FILL' 1;
+      }
+      
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+
+       @keyframes fade-in {
+          from { opacity: 0; }
+          to { opacity: 1; }
+      }
+      .animate-fade-in {
+          animation: fade-in 0.5s ease-out forwards;
+      }
+
+      @keyframes slide-in-from-bottom {
+        from { transform: translateY(20px); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
+      }
+       @keyframes slide-in-from-top {
+        from { transform: translateY(-20px); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
+      }
+      
+      @keyframes heartbeat {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.05); }
+        100% { transform: scale(1); }
+      }
+
+      .animate-heartbeat {
+        animation: heartbeat 2s ease-in-out infinite;
+      }
+
+      .text-glow-primary {
+        text-shadow: 0 0 10px var(--app-primary), 0 0 4px var(--app-primary);
+      }
+
+      .text-glow-white {
+        text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+      }
+      
+      .dark .text-glow-white {
+         text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+      }
+
+      .light .text-glow-white {
+         text-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+      }
+
+
+      @keyframes glow {
+        0%, 100% {
+          box-shadow: 0 0 5px var(--app-accent), 0 0 10px var(--app-accent), 0 0 15px var(--app-accent);
+        }
+        50% {
+          box-shadow: 0 0 10px var(--app-accent), 0 0 20px var(--app-accent), 0 0 30px var(--app-accent);
+        }
+      }
+
+      .animate-glow {
+        animation: glow 2.5s ease-in-out infinite;
+      }
+
+      /* Hide the default 'x' from search inputs in Webkit browsers */
+      input[type="search"]::-webkit-search-cancel-button {
+        -webkit-appearance: none;
+        display: none;
+      }
+      
+      @keyframes intro-fade-out {
+        from { opacity: 1; }
+        to { opacity: 0; }
+      }
+      .animate-intro-fade-out {
+        animation: intro-fade-out 0.5s ease-out forwards;
+      }
+      
+      @keyframes shimmer {
+        0% { background-position: -468px 0; }
+        100% { background-position: 468px 0; }
+      }
+      
+      .dark .animate-shimmer {
+        animation: shimmer 1.5s linear infinite;
+        background-color: var(--app-surface-1);
+        background-image: linear-gradient(to right, 
+          var(--app-surface-1) 0%, 
+          rgba(255, 255, 255, 0.04) 30%, 
+          var(--app-surface-1) 50%, 
+          var(--app-surface-1) 100%);
+        background-repeat: no-repeat;
+        background-size: 800px 100%;
+      }
+      
+       .light .animate-shimmer {
+        animation: shimmer 1.5s linear infinite;
+        background-color: var(--app-surface-1);
+        background-image: linear-gradient(to right, 
+          var(--app-surface-1) 0%, 
+          rgba(0, 0, 0, 0.02) 30%, 
+          var(--app-surface-1) 50%, 
+          var(--app-surface-1) 100%);
+        background-repeat: no-repeat;
+        background-size: 800px 100%;
+      }
+
+      /* AI Thinking Animation Styles */
+      @keyframes draw-line {
+        to {
+          stroke-dashoffset: 0;
+        }
+      }
+      @keyframes light-pulse-travel {
+          from {
+              stroke-dashoffset: 200;
+          }
+          to {
+              stroke-dashoffset: -200;
+          }
+      }
+      @keyframes node-pulse-glow {
+          0%, 100% {
+              filter: drop-shadow(0 0 3px #4d94ff);
+          }
+          50% {
+              filter: drop-shadow(0 0 8px #4d94ff);
+          }
+      }
+      
+      @keyframes typing-dots {
+        0%, 100% {
+          transform: translateY(0px);
+          opacity: 0.5;
+        }
+        50% {
+          transform: translateY(-4px);
+          opacity: 1;
+        }
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'app-bg': 'var(--app-bg)',
+              'app-surface-1': 'var(--app-surface-1)',
+              'app-surface-2': 'var(--app-surface-2)',
+              'app-primary': 'var(--app-primary)',
+              'app-accent': 'var(--app-accent)',
+              'app-text-primary': 'var(--app-text-primary)',
+              'app-text-secondary': 'var(--app-text-secondary)',
+              'app-text-on-primary': 'var(--app-text-on-primary)',
+              'app-border': 'var(--app-border)',
+            },
+            borderRadius: {
+              '4xl': '2rem',
+              '5xl': '2.5rem',
+            },
+          }
+        }
+      }
+    </script>
+
+  <link rel="stylesheet" href="/index.css">
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://esm.sh/react@^19.1.1",
+          "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+          "react-router-dom": "https://esm.sh/react-router-dom@^7.7.1",
+          "react/": "https://esm.sh/react@^19.1.1/",
+          "@google/genai": "https://esm.sh/@google/genai",
+          "jspdf": "https://esm.sh/jspdf@2.5.1",
+          "html2canvas": "https://esm.sh/html2canvas@1.4.1"
+        }
+      }
+    </script>
+  <script type="module" crossorigin src="/assets/index-COxSBOAj.js"></script>
+</head>
+  <body>
+    <div id="root"></div>
+</body>
+</html>
