@@ -1,14 +1,10 @@
+Developed & Designed by Younes Ksassoua
+Website : https://ksayounes.pages.dev
+Instagram: https://www.instagram.com/ksa.younes
+WhatsApp : https://wa.me/212696934044
+We build web apps & websites for businesses.
+Contact me for projects.
 
-
-<!--
-╔═════════════════════════════════════════════════════╗
-║   Developed & Designed by Younes Ksassoua           ║
-║   Website : https://ksayounes.pages.dev/            ║
-║   Instagram: https://www.instagram.com/ksa.younes/  ║
-║   WhatsApp : https://wa.me/212696934044             ║
-║   We build web apps & websites for businesses.      ║
-║   Contact me for projects.                          ║
-╚═════════════════════════════════════════════════════╝
 
 
                                                                                                     
