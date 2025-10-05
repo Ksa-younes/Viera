@@ -1,0 +1,10 @@
+User-agent: *
+
+
+Disallow: /cart
+Disallow: /checkout
+Disallow: /profile
+Disallow: /order-history
+
+
+Sitemap: https://www.viera.ma/sitemap.xml
