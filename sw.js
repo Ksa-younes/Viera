@@ -1,10 +1,10 @@
-// Import Workbox from CDN
+
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.5.4/workbox-sw.js');
 
 if (workbox) {
-  console.log('Yay! Workbox is loaded 🎉');
+  console.log('ksa.younes');
 
-  // Set a name for the caches
+  
   workbox.core.setCacheNameDetails({
     prefix: 'viera-app',
     suffix: 'v1',
@@ -12,11 +12,11 @@ if (workbox) {
     runtime: 'runtime-cache'
   });
 
-  // Let Workbox take control of the page as soon as the SW is activated
+  
   workbox.core.clientsClaim();
   workbox.core.skipWaiting();
 
-  // Caching strategy for navigation requests (HTML)
+  
   workbox.routing.registerRoute(
     ({ request }) => request.mode === 'navigate',
     new workbox.strategies.NetworkFirst({
@@ -29,7 +29,7 @@ if (workbox) {
     })
   );
 
-  // Caching strategy for JS, CSS, Worker
+  
   workbox.routing.registerRoute(
     ({ request }) =>
       request.destination === 'script' ||
@@ -40,7 +40,7 @@ if (workbox) {
     })
   );
 
-  // Caching strategy for images
+  
   workbox.routing.registerRoute(
     ({ request }) => request.destination === 'image',
     new workbox.strategies.CacheFirst({
@@ -48,16 +48,16 @@ if (workbox) {
       plugins: [
         new workbox.expiration.ExpirationPlugin({
           maxEntries: 150,
-          maxAgeSeconds: 30 * 24 * 60 * 60, // 30 days
+          maxAgeSeconds: 30 * 24 * 60 * 60,
         }),
         new workbox.cacheableResponse.CacheableResponsePlugin({
-          statuses: [0, 200], // for opaque/no-cors
+          statuses: [0, 200], 
         }),
       ],
     })
   );
 
-  // Caching strategy for Google Fonts stylesheet
+  
   workbox.routing.registerRoute(
     ({ url }) => url.hostname === 'fonts.googleapis.com',
     new workbox.strategies.StaleWhileRevalidate({
@@ -65,7 +65,7 @@ if (workbox) {
     })
   );
 
-  // Caching strategy for Google Fonts font files
+  
   workbox.routing.registerRoute(
     ({ url }) => url.hostname === 'fonts.gstatic.com',
     new workbox.strategies.CacheFirst({
@@ -75,14 +75,14 @@ if (workbox) {
           statuses: [0, 200],
         }),
         new workbox.expiration.ExpirationPlugin({
-          maxAgeSeconds: 60 * 60 * 24 * 365, // 1 year
+          maxAgeSeconds: 60 * 60 * 24 * 365, 
           maxEntries: 30,
         }),
       ],
     })
   );
 
-  // Caching strategy for Supabase API calls
+ 
   workbox.routing.registerRoute(
     ({ url }) => url.origin === 'https://risbzaauijeynwfigssg.supabase.co',
     new workbox.strategies.NetworkFirst({
@@ -91,7 +91,7 @@ if (workbox) {
       plugins: [
         new workbox.expiration.ExpirationPlugin({
           maxEntries: 50,
-          maxAgeSeconds: 5 * 60, // 5 minutes
+          maxAgeSeconds: 5 * 60,
         }),
         new workbox.cacheableResponse.CacheableResponsePlugin({
           statuses: [200],
@@ -101,5 +101,5 @@ if (workbox) {
   );
 
 } else {
-  console.log("Boo! Workbox didn't load 😬");
+  console.log("ksa.younes");
 }
