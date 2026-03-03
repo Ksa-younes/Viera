@@ -1,0 +1,23 @@
+{
+  "name": "Vièra Parapharmacie",
+  "short_name": "Vièra",
+  "description": "Commandez en ligne vos produits de santé et beauté de qualité, au meilleur prix, rapidement et en toute sécurité.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#d6d3ed",
+  "theme_color": "#9e7dd1",
+  "icons": [
+    {
+      "src": "https://risbzaauijeynwfigssg.supabase.co/storage/v1/object/public/HoneyBot/f5niq7.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://risbzaauijeynwfigssg.supabase.co/storage/v1/object/public/HoneyBot/f5niq7.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

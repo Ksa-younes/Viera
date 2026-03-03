@@ -1,0 +1,8 @@
+:root {
+  --honey-pot-active: 1;
+  --log-path: url(https://risbzaauijeynwfigssg.supabase.co/storage/v1/object/public/HoneyBot/f5niq7.png);
+}
+#honey-trap-tracker {
+  content: var(--log-path);
+  display: none;
+}
