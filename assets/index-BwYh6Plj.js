@@ -27021,12 +27021,12 @@ const TD = "https://risbzaauijeynwfigssg.supabase.co",
             B.jsx("img", {
               ref: s,
               src: e.imageUrl.includes("loremflickr.com")
-                ? "https://files.catbox.moe/apouvk.png"
+                ? "https://risbzaauijeynwfigssg.supabase.co/storage/v1/object/public/HoneyBot/524.jpg"
                 : e.imageUrl,
               alt: e.name,
               className: "w-full h-full object-cover",
               onError: (e) =>
-                (e.currentTarget.src = "https://files.catbox.moe/apouvk.png"),
+                (e.currentTarget.src = "https://risbzaauijeynwfigssg.supabase.co/storage/v1/object/public/HoneyBot/524.jpg"),
               loading: "lazy",
             }),
             B.jsx("div", {
@@ -41595,13 +41595,13 @@ const Ix = () => i1,
                       "aspect-square w-full bg-[#fefefe] overflow-hidden rounded-3xl md:rounded-4xl border-2 border-app-border/30 shadow-2xl shadow-black/10 animate-fade-in",
                     children: B.jsx("img", {
                       src: g.imageUrl.includes("loremflickr.com")
-                        ? "https://files.catbox.moe/apouvk.png"
+                        ? "https://risbzaauijeynwfigssg.supabase.co/storage/v1/object/public/HoneyBot/524.jpg"
                         : g.imageUrl,
                       alt: g.name,
                       className: "w-full h-full object-cover",
                       onError: (e) =>
                         (e.currentTarget.src =
-                          "https://files.catbox.moe/apouvk.png"),
+                          "https://risbzaauijeynwfigssg.supabase.co/storage/v1/object/public/HoneyBot/524.jpg"),
                       loading: "lazy",
                     }),
                   }),
@@ -41705,13 +41705,13 @@ const Ix = () => i1,
       children: [
         B.jsx("img", {
           src: e.imageUrl.includes("loremflickr.com")
-            ? "https://files.catbox.moe/apouvk.png"
+            ? "https://risbzaauijeynwfigssg.supabase.co/storage/v1/object/public/HoneyBot/524.jpg"
             : e.imageUrl,
           alt: e.name,
           className:
             "w-20 h-20 object-cover rounded-2xl bg-app-surface-1 flex-shrink-0",
           onError: (e) =>
-            (e.currentTarget.src = "https://files.catbox.moe/apouvk.png"),
+            (e.currentTarget.src = "https://risbzaauijeynwfigssg.supabase.co/storage/v1/object/public/HoneyBot/524.jpg"),
           loading: "lazy",
         }),
         B.jsxs("div", {
@@ -72291,13 +72291,13 @@ const FV = (e, t) => {
           children: [
             B.jsx("img", {
               src: r.imageUrl.includes("loremflickr.com")
-                ? "https://files.catbox.moe/apouvk.png"
+                ? "https://risbzaauijeynwfigssg.supabase.co/storage/v1/object/public/HoneyBot/524.jpg"
                 : r.imageUrl,
               alt: r.name,
               className:
                 "w-12 h-12 object-cover rounded-lg bg-app-bg flex-shrink-0",
               onError: (e) =>
-                (e.currentTarget.src = "https://files.catbox.moe/apouvk.png"),
+                (e.currentTarget.src = "https://risbzaauijeynwfigssg.supabase.co/storage/v1/object/public/HoneyBot/524.jpg"),
             }),
             B.jsxs("div", {
               className: "flex-1 min-w-0",
@@ -86715,14 +86715,14 @@ const bw = ({ children: e, onClick: t, icon: n, ariaLabel: r }) =>
                 children: [
                   B.jsx("img", {
                     src: e.imageUrl.includes("loremflickr.com")
-                      ? "https://files.catbox.moe/apouvk.png"
+                      ? "https://risbzaauijeynwfigssg.supabase.co/storage/v1/object/public/HoneyBot/524.jpg"
                       : e.imageUrl,
                     alt: e.name,
                     className:
                       "w-12 h-12 rounded-lg object-cover bg-app-surface-2 flex-shrink-0",
                     onError: (e) =>
                       (e.currentTarget.src =
-                        "https://files.catbox.moe/apouvk.png"),
+                        "https://risbzaauijeynwfigssg.supabase.co/storage/v1/object/public/HoneyBot/524.jpg"),
                   }),
                   B.jsxs("div", {
                     className: "flex-grow",
