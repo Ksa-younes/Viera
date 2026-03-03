@@ -39857,12 +39857,12 @@ const hR = () => {
         sl("description", t),
         sl("og:title", e, !0),
         sl("og:description", t, !0),
-        sl("og:image", r || "https://files.catbox.moe/f5niq7.png", !0));
+        sl("og:image", r || "https://risbzaauijeynwfigssg.supabase.co/storage/v1/object/public/HoneyBot/f5niq7.png", !0));
       const i = n || `${window.location.origin}${window.location.pathname}`;
       (sl("og:url", i, !0),
         sl("twitter:title", e),
         sl("twitter:description", t),
-        sl("twitter:image", r || "https://files.catbox.moe/f5niq7.png"));
+        sl("twitter:image", r || "https://risbzaauijeynwfigssg.supabase.co/storage/v1/object/public/HoneyBot/f5niq7.png"));
       let s = document.querySelector('link[rel="canonical"]');
       return (
         s ||
@@ -40441,7 +40441,7 @@ const Ix = () => i1,
             "@context": "https://schema.org",
             "@type": "HealthAndBeautyBusiness",
             name: "Vièra Parapharmacie",
-            image: "https://files.catbox.moe/f5niq7.png",
+            image: "https://risbzaauijeynwfigssg.supabase.co/storage/v1/object/public/HoneyBot/f5niq7.png",
             url: "https://viera.ma",
             hasMap: "https://maps.app.goo.gl/AUJdx5tJxqywqicH8",
             telephone: "+212620088404",
@@ -87917,7 +87917,7 @@ const bw = ({ children: e, onClick: t, icon: n, ariaLabel: r }) =>
                       (d ? "hidden md:flex" : "flex"),
                     children: [
                       B.jsx("img", {
-                        src: "https://files.catbox.moe/f5niq7.png",
+                        src: "https://risbzaauijeynwfigssg.supabase.co/storage/v1/object/public/HoneyBot/f5niq7.png",
                         alt: c("appName"),
                         className: "w-12 h-12 rounded-xl md:hidden",
                       }),
@@ -88196,7 +88196,7 @@ const bw = ({ children: e, onClick: t, icon: n, ariaLabel: r }) =>
                 className: "flex flex-col items-center gap-2",
                 children: [
                   B.jsx("img", {
-                    src: "https://files.catbox.moe/f5niq7.png",
+                    src: "https://risbzaauijeynwfigssg.supabase.co/storage/v1/object/public/HoneyBot/f5niq7.png",
                     alt: r("appName"),
                     className: "w-20 h-20 rounded-2xl",
                   }),
@@ -88534,7 +88534,7 @@ const bw = ({ children: e, onClick: t, icon: n, ariaLabel: r }) =>
           className: "flex flex-col items-center gap-6",
           children: [
             B.jsx("img", {
-              src: "https://files.catbox.moe/f5niq7.png",
+              src: "https://risbzaauijeynwfigssg.supabase.co/storage/v1/object/public/HoneyBot/f5niq7.png",
               alt: "Vièra Parapharmacie Logo",
               className:
                 "w-32 h-32 rounded-3xl shadow-2xl shadow-black/20 animate-intro-logo",
